@@ -15,7 +15,7 @@
         <div class="col-4">
             <h3 class="text-center text-secondary">Registrar película</h3>
 
-            <form method="post">
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                 <?php
                 include "Modelo/conexion.php";
                 include "Controlador/registro-pelicula.php";

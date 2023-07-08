@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <form method="post" class="col-4 p-3 m-auto">
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="col-4 p-3 m-auto">
         <?php
         ?>
         <div class="mb-3">
